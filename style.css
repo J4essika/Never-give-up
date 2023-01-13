@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav,ul{
+    text-align: center;
+    background-color: gray;
+    padding: 10px;
+   
+
+}
+
+li,a{
+    text-decoration: none;
+    display: inline;word-spacing: 50px;
+    color: white;
+    font-size: 1.3em;
+    cursor: pointer;
+    
+
+    
+}
+
+:hover li,a{
+    color: black;
+    
+  
+  
+   
+}
+
+body{
+    background-color: black;
+    
+}
+
+div{
+    background-color: gray;
+    color: aliceblue;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+   
+}
+
+main,p{
+    text-align: center;
+    text-indent: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 2em;
+   
+    
+}
+
+h1,h3,h2{
+  color: black;
+  font-family:deathnote ;
+}
+
+@font-face{
+    font-family: deathnote;
+    src: url(death_font_ver1_0/DEATH_FONT.TTF);
+}
+
+
+
+
+footer{
+    color: aliceblue;
+    text-align: center;
+    font-size: larger;
+    
+}
+
+.botao{
+   text-align: center;
+   background-color: black;
+
+}
+
+button{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
