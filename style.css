@@ -23,7 +23,7 @@
 
 a:hover{
     color: black;
-    background-color: azure;
+   background-color:azure;
     
 }
 
@@ -32,8 +32,10 @@ a:hover{
 body{
     background-color: black;
     text-align: center;
-    
+
 }
+
+
 
 div{
     background-color: gray;
@@ -48,7 +50,7 @@ div{
 
 div:hover{
     color: black;
-    background-color: azure;
+    background-color:azure;
 }
 
 main,p{
@@ -80,7 +82,7 @@ h1,h3,h2{
      border-radius: 5px;
      font-size: medium;
      font-family: 'Times New Roman', Times, serif;
-     color: white;
+     color: azure;
  
  }
 
@@ -90,7 +92,7 @@ button{
     border-radius: 5px;
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
-    color: white;
+    color: azure;
 }
 
 
@@ -101,7 +103,7 @@ button{
 
 
 footer{
-    color: aliceblue;
+    color: azure;
     text-align: center;
     font-size: larger; 
 }
@@ -112,9 +114,14 @@ footer{
 
 
 
+header{
+    background-color: azure;
+    box-shadow: 1px 5px 5px darkred;
+}
 
-
-
+header:hover{
+    background-color: gray;
+}
 
 
 
