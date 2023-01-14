@@ -14,11 +14,17 @@
 
      text-decoration: none;
      display: inline;word-spacing: 50px;
-     color: white;
+     color: azure;
      font-size: 1.3em;
      cursor: pointer;
      font-family: deathnote;
      
+}
+
+a:hover{
+    color: black;
+    background-color: azure;
+    
 }
 
 
@@ -31,13 +37,18 @@ body{
 
 div{
     background-color: gray;
-    color: aliceblue;
+    color: azure;
     margin-right: 30px;
     margin-left: 30px;
     margin-top: 20px;
     margin-bottom: 5px;
     border-radius: 10px;
    
+}
+
+div:hover{
+    color: black;
+    background-color: azure;
 }
 
 main,p{
@@ -61,14 +72,6 @@ h1,h3,h2{
 
 
 
-
-footer{
-    color: aliceblue;
-    text-align: center;
-    font-size: larger;
-    
-}
-
 .botao{
     text-align: center;
     background-color: black;
@@ -90,10 +93,30 @@ button{
     color: white;
 }
 
-.autor{
+
+
+.solid{
     border:solid 1px;
 }
 
-.ilustrador{
-    border:solid 1px;  
+
+footer{
+    color: aliceblue;
+    text-align: center;
+    font-size: larger; 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
