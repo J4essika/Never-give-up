@@ -4,35 +4,28 @@
     box-sizing: border-box;
 }
 
-nav,ul{
-    text-align: center;
-    background-color: gray;
-    padding: 10px;
-   
+#menu,a{
 
+     background-color: gray;
+     padding: 10px;
+     border-radius: 10px;
+     display: inline;
+     word-spacing: 10px;
+
+     text-decoration: none;
+     display: inline;word-spacing: 50px;
+     color: white;
+     font-size: 1.3em;
+     cursor: pointer;
+     font-family: deathnote;
+     
 }
 
-li,a{
-    text-decoration: none;
-    display: inline;word-spacing: 50px;
-    color: white;
-    font-size: 1.3em;
-    cursor: pointer;
-    
 
-    
-}
-
-:hover li,a{
-    color: black;
-    
-  
-  
-   
-}
 
 body{
     background-color: black;
+    text-align: center;
     
 }
 
@@ -77,10 +70,16 @@ footer{
 }
 
 .botao{
-   text-align: center;
-   background-color: black;
-
-}
+    text-align: center;
+    background-color: black;
+    background-color: gray;
+     padding: 10px;
+     border-radius: 5px;
+     font-size: medium;
+     font-family: 'Times New Roman', Times, serif;
+     color: white;
+ 
+ }
 
 button{
     background-color: gray;
@@ -91,3 +90,10 @@ button{
     color: white;
 }
 
+.autor{
+    border:solid 1px;
+}
+
+.ilustrador{
+    border:solid 1px;  
+}
