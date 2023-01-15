@@ -11,6 +11,7 @@
      border-radius: 10px;
      display: inline;
      word-spacing: 10px;
+     
 
      text-decoration: none;
      display: inline;word-spacing: 50px;
@@ -22,8 +23,9 @@
 }
 
 a:hover{
-    color: black;
-   background-color:azure;
+     color: black;
+     background-color:azure;
+     text-decoration: underline;
     
 }
 
@@ -60,6 +62,10 @@ main,p{
     line-height: 2em;
    
     
+}
+
+.detalhes{
+    font-family: deathnote;
 }
 
 h1,h3,h2{
@@ -107,10 +113,6 @@ footer{
     text-align: center;
     font-size: larger; 
 }
-
-
-
-
 
 
 
