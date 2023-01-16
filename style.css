@@ -38,12 +38,12 @@ body{
 
 
 header{
-    background-color: azure;
-    box-shadow: 2px 5px 5px darkred;
+    background-color:azure;
+    box-shadow:2px 5px 5px darkred;
 }
 
 header:hover{
-    background-color: gray;
+    background-color:gray;
 }
 
 
@@ -126,6 +126,14 @@ h1,h3,h2{
     width: 200px;
 
    
+}
+
+#disqus_thread{
+    background-color: gray;
+}
+
+#disqus_thread:hover{
+    background-color: azure;
 }
 
 
