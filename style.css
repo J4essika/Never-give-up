@@ -8,15 +8,14 @@
 
      background-color: gray;
      padding: 10px;
-     border-radius: 10px;
+     border-radius: 4px;
      display: inline;
-     word-spacing: 10px;
-     
-
      text-decoration: none;
-     display: inline;word-spacing: 50px;
+
+     display: inline;
+     word-spacing: 50px;
      color: azure;
-     font-size: 1.3em;
+     font-size: 1.0em;
      cursor: pointer;
      font-family: deathnote;
      
@@ -40,7 +39,7 @@ body{
 
 header{
     background-color: azure;
-    box-shadow: 1px 5px 5px darkred;
+    box-shadow: 2px 5px 5px darkred;
 }
 
 header:hover{
@@ -65,19 +64,24 @@ div:hover{
 }
 
 main,p{
-    text-align: center;
+    text-align:center;
     text-indent: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    line-height: 2em;
+    line-height: 1.5em;
+    margin: 10px;
 }
 
 .detalhes{
     font-family: deathnote;
+    text-align: center;
 }
 
 h1,h3,h2{
   color: black;
-  font-family:deathnote ;
+  font-family:deathnote;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
 }
 
 @font-face{
@@ -86,20 +90,20 @@ h1,h3,h2{
 }
 
 
-
 .botao{
-     text-align: center;
-     background-color: black;
-     background-color: gray;
-     padding: 10px;
-     border-radius: 5px;
-     font-size: medium;
-     font-family: 'Times New Roman', Times, serif;
-     color: azure;
- 
- }
+    text-align: center;
+    background-color: black;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
 
-button{
+}
+
+
+ button{
     background-color: gray;
     padding: 10px;
     border-radius: 5px;
@@ -108,12 +112,19 @@ button{
     color: azure;
 }
 
+.images-pg-inicial{
+    width: 100%;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.589);
+    border-radius: 2px;
+
+}
 
 
 .solid{
     border:solid 1px;
     border-radius: 100px;
     width: 200px;
+
    
 }
 
