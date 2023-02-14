@@ -42,7 +42,7 @@ header{
     box-shadow:2px 5px 5px darkred;
 }
 
-header:hover{
+header:active{
     background-color:gray;
 }
 
@@ -55,6 +55,8 @@ div{
     margin-top: 20px;
     margin-bottom: 5px;
     border-radius: 10px;
+
+   
    
 }
 
@@ -69,6 +71,8 @@ main,p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.5em;
     margin: 10px;
+
+   
 }
 
 .detalhes{
@@ -124,8 +128,6 @@ h1,h3,h2{
     border:solid 1px;
     border-radius: 100px;
     width: 200px;
-
-   
 }
 
 #disqus_thread{
@@ -143,8 +145,6 @@ footer{
     text-align: center;
     font-size: larger; 
 }
-
-
 
 
 
